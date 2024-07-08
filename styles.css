@@ -68,6 +68,7 @@ header .banner-content button {
 
 .category:hover a {
     color: #ffcc00; 
+   
 }
 /*#categories{
     background-color: white;
@@ -81,6 +82,11 @@ main .categories h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+.category img:hover{
+    z-index: 20;
+    transform: scale(1.7);
+    /* border-radius: 0; */
+} 
 
 main .category-grid {
     display: flex;
@@ -156,7 +162,7 @@ section p{
     height: 600px;
 }
 #dicotyledones p{
-    position: absolute;
+     position: absolute; 
     top: 10%;
 }
 
@@ -194,7 +200,7 @@ section p{
   object-fit: cover;
   border-radius: 10px;
   position: absolute;
-  /* bottom:10%; */
+  bottom:10%;
   left: 68%;
   top: 5%;
 
@@ -279,7 +285,6 @@ footer {
     align-items: center;
     text-align: center;
 }
-
 .logo {
     width: 98px;
     height: 97px;
@@ -335,3 +340,15 @@ footer {
     padding: 10px 0;
     font-size: 14px;
 }
+
+/* .example {
+    position: relative;
+
+}
+.image-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.455);
+    color: white;
+    left: 0;
+    bottom: 0;
+} */
