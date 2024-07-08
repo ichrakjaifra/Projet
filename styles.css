@@ -237,7 +237,7 @@ section p{
     margin-bottom: 10px;
 }
 
-footer {
+/* footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -254,4 +254,84 @@ footer .footer-links a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+} */
+
+footer {
+    background-color: #d6e9d4;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section, .center-section, .right-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 98px;
+    height: 97px;
+    margin-bottom: 10px;
+}
+
+.center-section{
+    display: flex;
+    position: relative;
+}
+
+.center-section h3 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.center-section p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.right-section{
+    position: relative;
+}
+.right-section h3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.right-section ul {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+}
+
+.right-section ul li {
+    margin-bottom: 5px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-bottom {
+    /* background-color: #e0e0e0; */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
 }
