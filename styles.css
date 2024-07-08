@@ -56,6 +56,10 @@ header .banner-content button {
     font-size: 1rem;
     cursor: pointer;
 }
+
+.banner-content button:hover{
+    background-color: #66cc66;
+}
 .category a {
     text-decoration: none; 
     color: white; 
@@ -109,6 +113,22 @@ main .category h3 {
 
 #monocotyledones{
     background-color: #D2EACF;
+    position: relative;
+    display: flex;
+    height: 600px;
+}
+
+#monocotyledones p{
+    position: absolute;
+    top: 10%;
+}
+
+.p1{
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 40%;
+    left: 35%;
 }
 
 section {
@@ -131,6 +151,13 @@ section p{
 
 #dicotyledones{
     background-color: #D9D9D9;
+    position: relative;
+    display: flex;
+    height: 600px;
+}
+#dicotyledones p{
+    position: absolute;
+    top: 10%;
 }
 
 .example img {
@@ -166,6 +193,10 @@ section p{
     margin-left: 587px;*/
   object-fit: cover;
   border-radius: 10px;
+  position: absolute;
+  /* bottom:10%; */
+  left: 68%;
+  top: 5%;
 
 }
 #mauvaises-herbes-vs-adventices h2{
