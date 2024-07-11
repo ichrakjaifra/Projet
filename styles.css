@@ -326,7 +326,17 @@ footer {
   padding: 10px 0;
   font-size: 14px;
 }
-
+.comparison-item img{
+  height: 90px;
+  width: 20%;
+  top: 20%;
+  left: 35%;
+  border-radius: 10px;
+  margin-left: 10%;
+  /* display: flex; */
+  /* row-gap: 20%; */
+  
+}
 /* Media Queries */
 
 @media (max-width: 1200px) {
