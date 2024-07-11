@@ -149,7 +149,7 @@ main .category h3 {
   position: absolute;
   top: 10%;
 }
-
+/*img1*/
 .p1 {
   position: absolute;
   height: auto;
@@ -186,7 +186,7 @@ section p {
   position: absolute;
   top: 10%;
 }
-
+/*img1*/
 .example img {
   width: 446px;
   height: 354px;
@@ -194,7 +194,7 @@ section p {
   margin: 0 auto;
   border-radius: 10px;
 }
-
+/*img2*/
 .ima img {
   width: 442px;
   height: 587px;
