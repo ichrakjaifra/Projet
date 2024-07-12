@@ -87,7 +87,7 @@ header .banner-content button {
   color: #66cc66;
   border: none;
   font-size: 1rem;
-  cursor: pointer;
+  cursor: pointer;/* Changer le curseur de la souris en pointeur pour indiquer que le bouton est cliquable */
 }
 
 .banner-content button:hover {
@@ -115,11 +115,13 @@ main .categories h2 {
 }
 
 .category img:hover {
+  /* Augmenter la priorité de l'image survolée en la plaçant au-dessus des autres éléments et en agrandissant l'image pour un effet de zoom */
   z-index: 20;
   transform: scale(1.7);
 }
 
 main .category-grid {
+  /* Afficher les éléments enfants sous forme de flexbox, répartir l'espace entre eux, et permettre le retour à la ligne pour une mise en page réactive */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -128,11 +130,11 @@ main .category-grid {
 main .category {
   background-color: #66cc66;
   color: white;
-  border-radius: 10px;
+  border-radius: 10px;/* Arrondir les coins de l'élément avec un rayon de 10 pixels */
   width: 30%;
   margin-bottom: 20px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Ajouter une ombre portée légère pour donner un effet de profondeur à l'élément */
   text-align: center;
 }
 
@@ -140,7 +142,7 @@ main .category img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: cover;/* Ajuster l'image pour couvrir entièrement le conteneur tout en préservant ses proportions */
   margin-bottom: 20px;
 }
 
@@ -198,13 +200,13 @@ section p {
   top: 10%;
 }
 /*img1*/
-.example img {
+ .example img {
   width: 446px;
   height: 354px;
-  display: block;
+  display: block;/* Afficher l'image comme un bloc, ce qui empêche les marges internes et les espaces indésirables autour de l'image */
   margin: 0 auto;
   border-radius: 10px;
-}
+} 
 /*img2*/
 .ima img {
   width: 442px;
@@ -268,7 +270,7 @@ footer {
 }
 
 .left-section, .center-section, .right-section {
-  flex: 1;
+  flex: 1;/* Permettre aux éléments de croître et de se rétrécir pour remplir l'espace disponible de manière égale */
   margin: 0 20px;
 }
 
