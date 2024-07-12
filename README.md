@@ -29,6 +29,5 @@ Ce projet présente une étude interactive et synoptique des mauvaises herbes mo
 
 ## Auteur
 - **Nom** : Ichrak Jaifra
-- **Contact** : info@agro.com
 
 
