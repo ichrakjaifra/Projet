@@ -43,6 +43,7 @@ header .top-bar nav ul li a {
 }
 header .top-bar nav ul li a:hover {
   background-color:#66cc66;
+  color: white;
 }
 header .banner {
   /* Appliquer une image de fond à l'élément .banner, avec des propriétés pour le positionnement, la répétition et le redimensionnement,
