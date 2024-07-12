@@ -93,6 +93,7 @@ header .banner-content button {
 
 .banner-content button:hover {
   background-color: #66cc66;
+  color: white;
 }
 
 .category a {
@@ -116,8 +117,7 @@ main .categories h2 {
 }
 
 .category img:hover {
-  /* Augmenter la priorité de l'image survolée en la plaçant au-dessus des autres éléments et en agrandissant l'image pour un effet de zoom */
-  z-index: 20;
+  /* agrandissant l'image pour un effet de zoom */
   transform: scale(1.7);
 }
 
@@ -213,7 +213,7 @@ section p {
   width: 442px;
   height: 587px;
   float: right;
-  object-fit: cover;
+  object-fit: cover;/* Ajuster l'image pour couvrir entièrement le conteneur tout en préservant ses proportions */
   border-radius: 10px;
   position: absolute;
   bottom: 10%;
@@ -264,22 +264,22 @@ footer {
 }
 
 .footer-content {
-  display: flex;
+  display: flex;/* Utilise le modèle de boîte flexible pour organiser les éléments enfants */
   position: relative;
-  justify-content: space-between;
+  justify-content: space-between;/* Distribue l'espace entre les éléments enfants, le premier élément au début et le dernier à la fin avec un espace égal entre eux */
   padding: 20px;
 }
 
 .left-section, .center-section, .right-section {
-  flex: 1;/* Permettre aux éléments de croître et de se rétrécir pour remplir l'espace disponible de manière égale */
+  flex: 1;/*Permet aux éléments de s'étendre et de se contracter pour occuper l'espace disponible de manière égale */
   margin: 0 20px;
 }
 
 .left-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  display: flex;/* Utilise un conteneur flexible pour organiser les éléments enfants en ligne ou en colonne */
+  flex-direction: column;/* Dispose les éléments enfants en colonne, les uns sous les autres */
+  align-items: center;/* Centre les éléments enfants horizontalement dans le conteneur */
+  text-align: center;/* Centre le texte à l'intérieur de cette section */
 }
 
 .logo {
@@ -346,8 +346,6 @@ footer {
   left: 35%;
   border-radius: 10px;
   margin-left: 10%;
-  /* display: flex; */
-  /* row-gap: 20%; */
   
 }
 /* Media Queries */
