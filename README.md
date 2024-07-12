@@ -4,10 +4,11 @@
 Ce projet présente une étude interactive et synoptique des mauvaises herbes monocotylédones et dicotylédones, ainsi que les distinctions entre les mauvaises herbes et les adventices.
 
 ## Structure du Site
-- **Accueil** : Introduction et bienvenue.
+- **Header** : Introduction et bienvenue.
 - **Monocotylédones** : Informations détaillées sur les mauvaises herbes monocotylédones.
 - **Dicotylédones** : Informations détaillées sur les mauvaises herbes dicotylédones.
 - **Mauvaises Herbes vs Adventices** : Comparaison entre les mauvaises herbes et les adventices.
+- **Footer** : des informations de contact, des liens vers les réseaux sociaux, et un message de droits d’auteur.
 
 ## Fonctionnalités
 - **Navigation Intuitive** : Menu de navigation clair et liens internes.
