@@ -2,10 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /*ajuste la taille de la boîte pour une meilleure gestion des dimensions*/
 }
 
 header .top-bar {
+  /* Définir la barre supérieure avec une couleur de fond blanche, utiliser Flexbox pour aligner les éléments au centre verticalement
+     et les espacer uniformément horizontalement, et ajouter une bordure inférieure verte de 6 pixels pour une séparation visuelle nette */
   background-color: white;
   /* padding: 10px 20px; */
   display: flex;
@@ -19,6 +21,8 @@ header .top-bar .logo {
 }
 
 header .top-bar nav ul {
+  /* Supprimer les puces de liste par défaut, retirer les marges et les espacements internes,
+     et utiliser Flexbox pour aligner les éléments de la liste horizontalement */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -38,9 +42,12 @@ header .top-bar nav ul li a {
   padding-bottom: 5px;
 }
 header .top-bar nav ul li a:hover {
-  color:#66cc66;
+  background-color:#66cc66;
 }
 header .banner {
+  /* Appliquer une image de fond à l'élément .banner, avec des propriétés pour le positionnement, la répétition et le redimensionnement,
+     définir la couleur du texte en blanc, ajouter des espacements internes pour le contenu, centrer le texte, et positionner l'élément relativement
+     pour permettre le positionnement absolu d'autres éléments enfants si nécessaire */
   background: url('image-header.jpg') no-repeat center center/cover;
   color: white;
   padding: 60px 20px;
@@ -49,6 +56,8 @@ header .banner {
 }
 
 header .logo img {
+  /* Positionner l'image du logo de manière absolue à 20 pixels du haut et à 20 pixels de la gauche du conteneur parent,
+     et définir une largeur fixe de 80 pixels pour l'image */
   position: absolute;
   top: 20px;
   left: 20px;
@@ -56,11 +65,13 @@ header .logo img {
 }
 
 header .banner-content {
+  /* Limiter la largeur maximale du contenu de la bannière à 600 pixels et centrer horizontalement le contenu dans son conteneur parent */
   max-width: 600px;
   margin: 0 auto;
 }
 
 header .banner-content h1 {
+  /* Définir la taille de la police pour le titre h1 à 2.5 rem et ajouter une marge inférieure de 20 pixels pour espacer le titre du contenu suivant */
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
@@ -240,7 +251,6 @@ section p {
 }
 
 .comparison-item ul li {
-  background: url('.png') no-repeat left center;
   padding-left: 30px;
   margin-bottom: 10px;
 }
@@ -410,4 +420,5 @@ footer {
       width: 100%;
       left: 0;
   }
+
 }
