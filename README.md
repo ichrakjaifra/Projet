@@ -8,7 +8,7 @@ Ce projet présente une étude interactive et synoptique des mauvaises herbes mo
 - **Monocotylédones** : Informations détaillées sur les mauvaises herbes monocotylédones.
 - **Dicotylédones** : Informations détaillées sur les mauvaises herbes dicotylédones.
 - **Mauvaises Herbes vs Adventices** : Comparaison entre les mauvaises herbes et les adventices.
-- **Footer** : des informations de contact, des liens vers les réseaux sociaux, et un message de droits d’auteur.
+- **Footer** : Informations de contact, des liens vers les réseaux sociaux, et un message de droits d’auteur.
 
 ## Fonctionnalités
 - **Navigation Intuitive** : Menu de navigation clair et liens internes.
